@@ -26,5 +26,5 @@ jobs:
           echo "TEMP: $TEMP"
           echo "RUNNER_TEMP: $RUNNER_TEMP"
 
-          echo "ls /: $(ls /)"
+          echo "ls /: $(ls / -la)"
           echo "df -h: $(df -h)"
