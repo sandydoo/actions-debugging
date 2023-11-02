@@ -13,3 +13,9 @@ jobs:
       - run: |
           echo "$GITHUB_SERVER_URL"
           echo "${{ github.server_url }}"
+
+          if [ "$GITHUB_SERVER_URL" != "https://github.com" ]; then
+            echo "Not github.com"
+          else
+            echo "github.com"
+          fi
