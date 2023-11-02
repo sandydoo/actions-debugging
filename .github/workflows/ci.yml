@@ -19,3 +19,6 @@ jobs:
           else
             echo "github.com"
           fi
+
+          echo "$TMPDIR"
+          echo "$RUNNER_TEMP"
