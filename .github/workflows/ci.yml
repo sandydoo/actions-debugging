@@ -20,5 +20,8 @@ jobs:
             echo "github.com"
           fi
 
-          echo "$TMPDIR"
-          echo "$RUNNER_TEMP"
+          echo "TMPDIR: $TMPDIR"
+          echo "XDG_RUNTIME_DIR: $XDG_RUNTIME_DIR"
+          echo "TMP: $TMP"
+          echo "TEMP: $TEMP"
+          echo "RUNNER_TEMP: $RUNNER_TEMP"
