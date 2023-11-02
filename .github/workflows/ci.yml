@@ -25,3 +25,5 @@ jobs:
           echo "TMP: $TMP"
           echo "TEMP: $TEMP"
           echo "RUNNER_TEMP: $RUNNER_TEMP"
+
+          echo "ls /: $(ls /)"
